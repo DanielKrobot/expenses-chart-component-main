@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(27, 66%, 92%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90vw;
+    max-width: 500px;
+    margin: auto;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background-color: hsl(10, 79%, 65%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#balance * {
+    color: hsl(33, 100%, 98%);
+}
+
+main {
+    background-color: hsl(33, 100%, 98%);
+    width: 100%;
+    height: 60%;
+    min-height: 400px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+main > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+hr {
+    margin: 1rem 0;
+    border: 1.5px solid hsl(27, 66%, 92%);
+}
+
+main > div p {
+    color: hsl(28, 10%, 53%);
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+#balance p:first-of-type {
+    font-size: 0.8rem;
+}
+
+#balance p:last-of-type {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h1, h2, h3 {
+    color: hsl(25, 47%, 15%);
+}
+
+section {
+    display: flex;
+    gap: 0.7rem;
+    height: 65%;
+}
+
+h4 {
+    color: hsl(28, 10%, 53%);
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+section p {
+    background-color: hsl(25, 47%, 15%);
+    margin: 0 -0.35rem;
+    text-align: center;
+    color: hsl(33, 100%, 98%);
+    font-size: 0.8rem;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+section > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+    justify-content: end;
+}
+
+.bar {
+    height: 70%;
+    max-height: 70%;
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+    margin: 0.5rem 0;
+}
+
+.hidden {
+    display: none;
+}
